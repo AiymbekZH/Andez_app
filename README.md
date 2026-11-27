@@ -26,3 +26,8 @@ npm run dev     # starts the app at http://localhost:5173
 - `src/App.tsx`: the home screen
 - `src/App.test.tsx`: its tests
 - `src/index.css`: the styles
+
+## Live link
+
+Every push to `main` builds the app and publishes it to GitHub Pages (`.github/workflows/deploy.yml`):
+https://aiymbekzh.github.io/Andez_app/
