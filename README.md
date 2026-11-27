@@ -26,3 +26,7 @@ npm run dev     # starts the app at http://localhost:5173
 - `src/App.tsx`: the home screen
 - `src/App.test.tsx`: its tests
 - `src/index.css`: the styles
+
+## Checks
+
+Every pull request runs `npm ci`, `npm test` and `npm run build` on GitHub Actions (`.github/workflows/ci.yml`). Pushes to `main` run them too.
