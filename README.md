@@ -30,3 +30,8 @@ npm run dev     # starts the app at http://localhost:5173
 ## Checks
 
 Every pull request runs `npm ci`, `npm test` and `npm run build` on GitHub Actions (`.github/workflows/ci.yml`). Pushes to `main` run them too.
+
+## Live link
+
+Every push to `main` builds the app and publishes it to GitHub Pages (`.github/workflows/deploy.yml`):
+https://aiymbekzh.github.io/Andez_app/
